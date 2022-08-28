@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+@mixin btn {
+  width: 220px;
+  height: 50px;
+  background: #FE8B46;
+  border-radius: 8px;
+  border: none;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  transition: .4s;
+  &:hover{
+    transform: scale(1.2);
+  }
+}
+
+@mixin btn2 {
+  width: 220px;
+  height: 50px;
+  background: rgba(254, 139, 70, 0.12);
+  border-radius: 8px;
+  //border: 2px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0);
+  transition: .4s;
+  &:hover{
+    transform: scale(1.2);
+  }
+}
